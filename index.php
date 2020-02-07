@@ -8,6 +8,7 @@
     <title>Captcha Verification</title>
 </head>
 <body>
+    <h2>Captcha image verification</h2>
     <form name="captcha" method="post">
         <label for="name">Name:</label>
         <input id="name" type="text" name="name" required="required">
