@@ -25,7 +25,7 @@
     //include 'captcha.php';
     session_start();
     if ($_POST['vercode'] != $_SESSION['vercode'] OR $_SESSION['vercode'] == '') {
-        echo '<strong>Incorrect</strong>';
+        echo '<script>alert("incorrect");</script>';
     } else {
         // add form data processing code here
         echo '<strong>Correct</strong>';
