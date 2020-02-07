@@ -28,7 +28,7 @@
         echo '<script>alert("incorrect");</script>';
     } else {
         // add form data processing code here
-        echo '<strong>Correct</strong>';
+        echo '<script>alert("correct");</script>';
     }
     ?>
 </body>
